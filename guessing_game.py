@@ -5,6 +5,8 @@ Project 1 - A Number Guessing Game
 """
 
 # Import the random and statistics modules.
+# https://docs.python.org/3/library/random.html#random.randint
+# https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics
 
 # Create the start_game function.
 # Write your code inside this function.
