@@ -7,15 +7,16 @@ Project 1 - A Number Guessing Game
 # Import the random and statistics modules.
 # https://docs.python.org/3/library/random.html#random.randint
 # https://docs.python.org/3/library/statistics.html?highlight=statistics#module-statistics
+import statistics
 
 # Create the start_game function.
-# Write your code inside this function.
-
-#   When the program starts, we want to:
-#   ------------------------------------
+def start_game():
 #   1. Display an intro/welcome message to the player.
+    print("----> Do you want to play a game? Guess the number, and you will survive the night. <----")
 #   2. Store a random number as the answer/solution.
+    solution = []
 #   3. Continuously prompt the player for a guess.
+    
 #     a. If the guess is greater than the solution, display to the player "It's lower".
 #     b. If the guess is less than the solution, display to the player "It's higher".
 
@@ -33,3 +34,6 @@ Project 1 - A Number Guessing Game
 
 
 # Kick off the program by calling the start_game function.
+
+
+start_game()
