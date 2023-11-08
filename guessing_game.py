@@ -10,13 +10,13 @@ Project 1 - A Number Guessing Game
 import statistics
 
 # Create the start_game function.
+
+
 def start_game():
-#   1. Display an intro/welcome message to the player.
     print("----> Do you want to play a game? Guess the number, and you will survive the night. <----")
-#   2. Store a random number as the answer/solution.
     solution = []
 #   3. Continuously prompt the player for a guess.
-    
+
 #     a. If the guess is greater than the solution, display to the player "It's lower".
 #     b. If the guess is less than the solution, display to the player "It's higher".
 
