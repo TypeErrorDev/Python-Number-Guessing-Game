@@ -1,47 +1,47 @@
 Run Script
     Meets Expectations:
-        ☐ Program runs, any exceptions are caught and handled, preventing crashes while it's running
+        ☐ Program runs, any exceptions are caught and handled, preventing crashes while it's running @started(23-11-09 15:05)
     
     Exceeds Expectations:
-        ☐ All formatted strings are f-strings
-        ☐ Your project includes a readme that describes what this project is
+        ☐ All formatted strings are f-strings @started(23-11-09 15:05)
+        ☐ Your project includes a readme that describes what this project is @started(23-11-09 15:05)
 
 Display Intro
     Meets Expectations:
-        ☐ When run, the program displays an initial intro/welcome message before or above the menu
+        ☐ When run, the program displays an initial intro/welcome message before or above the menu @started(23-11-09 15:05)
 
 Random Number
     Meets Expectations:
-        ☐ When run, a random number within the rage is chosen for the player to guess
-        ☐ When the player chooses to play the game again, a new random number within the range is chosen each time
+        ☐ When run, a random number within the rage is chosen for the player to guess @started(23-11-09 15:05)
+        ☐ When the player chooses to play the game again, a new random number within the range is chosen each time @started(23-11-09 15:05)
 
 User Input
     Meets Expectations:
-        ☐ The player is prompted for a number guess, non-number or numbers outside the range does not cause the app to exit unexpectedly
+        ☐ The player is prompted for a number guess, non-number or numbers outside the range does not cause the app to exit unexpectedly @started(23-11-09 15:05)
 
     Exceeds Expecatations:
-        ☐ The player cannot enter a number that is outside the number range. If the player tries, they are informed that the number was not a valid option and to try again
+        ☐ The player cannot enter a number that is outside the number range. If the player tries, they are informed that the number was not a valid option and to try again @started(23-11-09 15:05)
 
 Responding to the player
     Meets Expectations:
         The player receives the correct feedback for their choice:
-            ☐ If the solution is higher than the guess, display "It's higher"
-            ☐ If the solution is lower than the player's guess, display "It's lower"
+            ☐ If the solution is higher than the guess, display "It's higher" @started(23-11-09 15:05)
+            ☐ If the solution is lower than the player's guess, display "It's lower" @started(23-11-09 15:05)
 
 Displaying Scores
     Meets Expectations:
-        ☐ The player is shown their number of tries/their score at the end of each game once they have guessed the correct number
-        ☐ Save the player's number of tries/score to a list. The list should hold all tries as the game is played over and over again
+        ☐ The player is shown their number of tries/their score at the end of each game once they have guessed the correct number @started(23-11-09 15:05)
+        ☐ Save the player's number of tries/score to a list. The list should hold all tries as the game is played over and over again @started(23-11-09 15:05)
 
     Exceeds Expectations:
-        ☐ Display a high score (number of LEAST guesses) at the `start` of a new game so the player knows the goal they are trying to beat
+        ☐ Display a high score (number of LEAST guesses) at the `start` of a new game so the player knows the goal they are trying to beat @started(23-11-09 15:05)
 
 Display End Game
     Meets Expectations:
-        ☐ Ask the user if they would like to play again
-            ☐ If yes, then cycle the user back into guessing a number again
-            ☐ If no, then provide the user with an ending/quit/goodbye message
+        ☐ Ask the user if they would like to play again @started(23-11-09 15:05)
+            ☐ If yes, then cycle the user back into guessing a number again @started(23-11-09 15:05)
+            ☐ If no, then provide the user with an ending/quit/goodbye message @started(23-11-09 15:05)
 
 Analysis
     Meets Expectations:
-        ☐ When the game ends, the mean, median and mode from the saved socres list was shown to the player
+        ☐ When the game ends, the mean, median and mode from the saved socres list was shown to the player @started(23-11-09 15:05)
