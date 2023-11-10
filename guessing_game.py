@@ -11,6 +11,8 @@ import statistics
 
 # Create the start_game function.
 def start_game():
+    # TODO Need to display a high score, or a "No High Score"
+
     # Display an intro/welcome message to the player.
     def intro():
         print("Do you want to play a game? Guess the number between 1-100, and you'll survive the night.")
@@ -48,6 +50,7 @@ def start_game():
                 print("It's Higher")
             elif guess > 100 or guess < 1:
                 print("Sorry, please keep the guesses between 1-100 ")
+    # TODO This elif ^^ does not run at all. Need to fix this for the User Input Meets AND Exceeds tasks
             elif guess == solution:
                 add_to_list(guess)
                 print(
@@ -55,7 +58,12 @@ def start_game():
                 game_stats()
                 break
 
+    # TODO Need to complete the below
     #   6. Prompt the player to play again
     #     a. If they decide to play again, start the game loop over.
     #     b. If they decide to quit, show them a goodbye message.
+    # TODO Need to reroll new random number
+
+
+    # TODO Need to save the game_stats to it's own list
 start_game()
