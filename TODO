@@ -3,16 +3,16 @@ Run Script
         ☐ Program runs, any exceptions are caught and handled, preventing crashes while it's running @started(23-11-09 15:05)
     
     Exceeds Expectations:
-        ☐ All formatted strings are f-strings @started(23-11-09 15:05)
-        ☐ Your project includes a readme that describes what this project is @started(23-11-09 15:05)
+        ✔ All formatted strings are f-strings @started(23-11-09 15:05) @done(23-11-09 16:25) @lasted(1h20m3s)
+        ✔ Your project includes a readme that describes what this project is @started(23-11-09 15:05) @done(23-11-09 16:25) @lasted(1h20m4s)
 
 Display Intro
     Meets Expectations:
-        ☐ When run, the program displays an initial intro/welcome message before or above the menu @started(23-11-09 15:05)
+        ✔ When run, the program displays an initial intro/welcome message before or above the menu @started(23-11-09 15:05) @done(23-11-09 16:25) @lasted(1h20m8s)
 
 Random Number
     Meets Expectations:
-        ☐ When run, a random number within the rage is chosen for the player to guess @started(23-11-09 15:05)
+        ✔ When run, a random number within the rage is chosen for the player to guess @started(23-11-09 15:05) @done(23-11-09 16:25) @lasted(1h20m14s)
         ☐ When the player chooses to play the game again, a new random number within the range is chosen each time @started(23-11-09 15:05)
 
 User Input
@@ -25,12 +25,12 @@ User Input
 Responding to the player
     Meets Expectations:
         The player receives the correct feedback for their choice:
-            ☐ If the solution is higher than the guess, display "It's higher" @started(23-11-09 15:05)
-            ☐ If the solution is lower than the player's guess, display "It's lower" @started(23-11-09 15:05)
+            ✔ If the solution is higher than the guess, display "It's higher" @started(23-11-09 15:05) @done(23-11-09 16:34) @lasted(1h29m16s)
+            ✔ If the solution is lower than the player's guess, display "It's lower" @started(23-11-09 15:05) @done(23-11-09 16:34) @lasted(1h29m19s)
 
 Displaying Scores
     Meets Expectations:
-        ☐ The player is shown their number of tries/their score at the end of each game once they have guessed the correct number @started(23-11-09 15:05)
+        ✔ The player is shown their number of tries/their score at the end of each game once they have guessed the correct number @started(23-11-09 15:05) @done(23-11-09 16:34) @lasted(1h29m25s)
         ☐ Save the player's number of tries/score to a list. The list should hold all tries as the game is played over and over again @started(23-11-09 15:05)
 
     Exceeds Expectations:
