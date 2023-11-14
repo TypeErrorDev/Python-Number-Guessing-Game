@@ -28,12 +28,12 @@ def start_game():
     # TODO: Need to change the mean/median/mode to the `tries` list, and not the guesses list
     def game_stats():
         guess_mean = mean(guesses)
-        # guess_median = statistics.median(guesses)
-        # guess_mode = statistics.mode(guesses)
+        guess_median = median(guesses)
+        guess_mode = mode(guesses)
         print(f"    Total Guesses: {len(guesses)}")
         print(f"    Mean of your Guess: {int(guess_mean)}")
-        # print(f"    Median of your Guesses: {guess_median}")
-        # print(f"    Mode of your Guesses: {guess_mode}")
+        print(f"    Median of your Guesses: {int(guess_median)}")
+        print(f"    Mode of your Guesses: {int(guess_mode)}")
 
     def add_to_list(item):
         guesses.append(item)
