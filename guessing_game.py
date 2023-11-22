@@ -49,7 +49,7 @@ def start_game():
                 print(f"Here is your current High Score: {min(high_score)}\nLet's see if you can beat it!")
                 break
             elif play_again.lower() == "n":
-                print("OK. Bye!")
+                print("OK. Maybe next time!")
                 return
             else:
                 print("Please enter 'Y' or 'N'.")  
@@ -84,12 +84,8 @@ def start_game():
 
 
 
-    # TODO Need to complete the below
-    #   6. Prompt the player to play again
-    #     a. If they decide to play again, start the game loop over.
-    #     b. If they decide to quit, show them a goodbye message.
+
     # TODO Need to reroll new random number
 
 
-    # TODO Need to save the game_stats to it's own list
 start_game()
