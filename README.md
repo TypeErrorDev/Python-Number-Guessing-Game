@@ -12,7 +12,6 @@ Once you guess correctly, the game tracks statistics like your personal best sco
   - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -41,16 +40,11 @@ Soon, precision guessing abilities emerge that players never knew!
 
 With set bounds between 0-100, tailored statistics, and motivational peer leaderboards, this game provides guessing fun for all skill levels. But continually besting personal records presents overarching, addictive gameplay.
 
-
 ## My process
 
 ### Built with
 
-- [Python3](https://www.python.org/download/releases/3.0/) - Python3
-
-### What I learned
-
-I learned a lot about OOP (Object-Oriented Programming) and how to use it to create a game. I also learned how to use the DOM to manipulate the HTML and CSS. I learned that by utilizing classes, I can create objects that can be used to create multiple instances of the same object.
+- [Python3](https://www.python.org/download/releases/3.0/)
 
 ## Author
 
