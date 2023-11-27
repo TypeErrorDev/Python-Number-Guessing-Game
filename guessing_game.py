@@ -11,21 +11,23 @@ from statistics import mean, median, mode
 
 # Create the start_game function.
 def start_game():
-
     # Display an intro/welcome message to the player.
-
     def intro():
-        print("Lets play a game. If you guess my number that is between 1-100, you'll win the game.\nGuess wrong, and....yup you guessed it...you'll lose the game.")
+        print(
+            """
+            Lets play a game. If you guess my number that is between 1-100, you'll win the game.
+            Guess wrong, and....yup you guessed it...you'll lose the game.
+            """)
+
     intro()
 
     guesses = []
-    # TODO Need to display a high score, or a "No High Score"
     high_score = []
     solution = randint(1, 100)
+    # For testing purposes, I'm printing the solution to the console.
     print(f"The solution is: {solution}")
 
     # statistics function
-    # TODO: Need to change the mean/median/mode to the `tries` list, and not the guesses list
     def game_stats():
         guess_mean = mean(guesses)
         guess_median = median(guesses)
@@ -41,21 +43,18 @@ def start_game():
         guesses.append(item)
         guesses.sort()
 
-
     def play_again():
         while True:
-            play_again = input("Let's play again? Y/N: ")
-            if play_again.lower() == "y":
+            another_turn = input("Let's play again? Y/N: ")
+            if another_turn.lower() == "y":
                 print(f"Here is your current High Score: {min(high_score)}\nLet's see if you can beat it!")
                 break
-            elif play_again.lower() == "n":
+            elif another_turn.lower() == "n":
                 print("OK. Maybe next time!")
                 return
             else:
-                print("Please enter 'Y' or 'N'.")  
-                 
+                print("Please enter 'Y' or 'N'.")
 
-    # Continuously prompt the player for a guess.
     while True:
         try:
             guess = int(input("So, what's your guess: "))
@@ -80,12 +79,6 @@ def start_game():
                 game_stats()
                 play_again()
                 break
-                
-
-
-
-
-    # TODO Need to reroll new random number
 
 
 start_game()
