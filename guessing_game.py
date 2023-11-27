@@ -9,6 +9,9 @@ from random import randint
 from statistics import mean, median, mode
 
 
+high_score = []
+
+
 # Create the start_game function.
 def start_game():
     # Display an intro/welcome message to the player.
@@ -20,24 +23,25 @@ def start_game():
             """)
 
     intro()
-
     guesses = []
-    high_score = []
     solution = randint(1, 100)
     # For testing purposes, I'm printing the solution to the console.
     print(f"The solution is: {solution}")
 
     # statistics function
     def game_stats():
-        guess_mean = mean(guesses)
-        guess_median = median(guesses)
-        guess_mode = mode(guesses)
-        high_score.append(len(guesses))
-        print(f"    Here's your high score: {min(high_score)}")
-        print(f"    Total Guesses: {len(guesses)}")
-        print(f"    Mean of your Guess: {int(guess_mean)}")
-        print(f"    Median of your Guesses: {int(guess_median)}")
-        print(f"    Mode of your Guesses: {int(guess_mode)}")
+        if len(high_score) == 0:
+            print("You haven't played yet. Try it out!")
+            return
+        else:
+            hs_mean = mean(high_score)
+            hs_median = median(high_score)
+            hs_mode = mode(high_score)
+            print(f"    Here's your high score: {min(high_score)}")
+            print(f"    Total Guesses: {len(guesses)}")
+            print(f"    Mean of your Guess: {int(hs_mean)}")
+            print(f"    Median of your Guesses: {int(hs_median)}")
+            print(f"    Mode of your Guesses: {int(hs_mode)}")
 
     def add_to_list(item):
         guesses.append(item)
@@ -47,7 +51,9 @@ def start_game():
         while True:
             another_turn = input("Let's play again? Y/N: ")
             if another_turn.lower() == "y":
-                print(f"Here is your current High Score: {min(high_score)}\nLet's see if you can beat it!")
+                print(
+                    f"Here is your current High Score: {min(high_score)}\nLet's see if you can beat it!")
+                guesses = []
                 start_game()
                 break
             elif another_turn.lower() == "n":
@@ -75,9 +81,11 @@ def start_game():
                 continue
             elif guess == solution:
                 add_to_list(guess)
+                high_score.append(len(guesses))
                 print(
                     "You have survived the night...This time. \nHere's some stats from the night:")
                 game_stats()
+                guesses = []
                 play_again()
                 break
 
