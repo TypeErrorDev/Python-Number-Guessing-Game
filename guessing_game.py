@@ -48,6 +48,7 @@ def start_game():
             another_turn = input("Let's play again? Y/N: ")
             if another_turn.lower() == "y":
                 print(f"Here is your current High Score: {min(high_score)}\nLet's see if you can beat it!")
+                start_game()
                 break
             elif another_turn.lower() == "n":
                 print("OK. Maybe next time!")

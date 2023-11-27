@@ -19,7 +19,7 @@ User Input
     Meets Expectations:
         ✔ The player is prompted for a number guess, non-number or numbers outside the range does not cause the app to exit unexpectedly @started(23-11-09 15:05) @done(23-11-09 16:53) @lasted(1h48m11s)
 
-    Exceeds Expecatations:
+    Exceeds Expectations:
         ☐ The player cannot enter a number that is outside the number range. If the player tries, they are informed that the number was not a valid option and to try again @started(23-11-09 15:05)
 
 Responding to the player
