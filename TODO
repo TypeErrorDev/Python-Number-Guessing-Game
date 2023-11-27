@@ -1,6 +1,6 @@
 Run Script
     Meets Expectations:
-        ☐ Program runs, any exceptions are caught and handled, preventing crashes while it's running @started(23-11-09 15:05)
+        ✔ Program runs, any exceptions are caught and handled, preventing crashes while it's running @started(23-11-09 15:05) @done(23-11-26 22:43) @lasted(2w3d7h38m18s)
     
     Exceeds Expectations:
         ✔ All formatted strings are f-strings @started(23-11-09 15:05) @done(23-11-09 16:25) @lasted(1h20m3s)
@@ -13,14 +13,14 @@ Display Intro
 Random Number
     Meets Expectations:
         ✔ When run, a random number within the rage is chosen for the player to guess @started(23-11-09 15:05) @done(23-11-09 16:25) @lasted(1h20m14s)
-        ☐ When the player chooses to play the game again, a new random number within the range is chosen each time @started(23-11-09 15:05)
+        ✔ When the player chooses to play the game again, a new random number within the range is chosen each time @started(23-11-09 15:05) @done(23-11-26 22:43) @lasted(2w3d7h38m24s)
 
 User Input
     Meets Expectations:
         ✔ The player is prompted for a number guess, non-number or numbers outside the range does not cause the app to exit unexpectedly @started(23-11-09 15:05) @done(23-11-09 16:53) @lasted(1h48m11s)
 
     Exceeds Expectations:
-        ☐ The player cannot enter a number that is outside the number range. If the player tries, they are informed that the number was not a valid option and to try again @started(23-11-09 15:05)
+        ✔ The player cannot enter a number that is outside the number range. If the player tries, they are informed that the number was not a valid option and to try again @started(23-11-09 15:05) @done(23-11-26 22:43) @lasted(2w3d7h38m29s)
 
 Responding to the player
     Meets Expectations:
@@ -31,17 +31,17 @@ Responding to the player
 Displaying Scores
     Meets Expectations:
         ✔ The player is shown their number of tries/their score at the end of each game once they have guessed the correct number @started(23-11-09 15:05) @done(23-11-09 16:34) @lasted(1h29m25s)
-        ☐ Save the player's number of tries/score to a list. The list should hold all tries as the game is played over and over again @started(23-11-09 15:05)
+        ✔ Save the player's number of tries/score to a list. The list should hold all tries as the game is played over and over again @started(23-11-09 15:05) @done(23-11-26 22:43) @lasted(2w3d7h38m39s)
 
     Exceeds Expectations:
-        ☐ Display a high score (number of LEAST guesses) at the `start` of a new game so the player knows the goal they are trying to beat @started(23-11-09 15:05)
+        ✔ Display a high score (number of LEAST guesses) at the `start` of a new game so the player knows the goal they are trying to beat @started(23-11-09 15:05) @done(23-11-26 22:45) @lasted(2w3d7h40m13s)
 
 Display End Game
     Meets Expectations:
-        ☐ Ask the user if they would like to play again @started(23-11-09 15:05)
-            ☐ If yes, then cycle the user back into guessing a number again @started(23-11-09 15:05)
-            ☐ If no, then provide the user with an ending/quit/goodbye message @started(23-11-09 15:05)
+        ✔ Ask the user if they would like to play again @started(23-11-09 15:05) @done(23-11-26 22:45) @lasted(2w3d7h40m18s)
+            ✔ If yes, then cycle the user back into guessing a number again @started(23-11-09 15:05) @done(23-11-26 22:45) @lasted(2w3d7h40m19s)
+            ✔ If no, then provide the user with an ending/quit/goodbye message @started(23-11-09 15:05) @done(23-11-26 22:45) @lasted(2w3d7h40m21s)
 
 Analysis
     Meets Expectations:
-        ☐ When the game ends, the mean, median and mode from the saved socres list was shown to the player @started(23-11-09 15:05)
+        ✔ When the game ends, the mean, median and mode from the saved socres list was shown to the player @started(23-11-09 15:05) @done(23-11-26 22:53) @lasted(2w3d7h48m45s)

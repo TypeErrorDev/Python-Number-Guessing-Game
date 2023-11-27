@@ -20,6 +20,7 @@ def start_game():
             """
             Lets play a game. If you guess my number that is between 1-100, you'll win the game.
             Guess wrong, and....yup you guessed it...you'll lose the game.
+            You can play as many times as you want!
             """)
 
     intro()
@@ -38,10 +39,9 @@ def start_game():
             hs_median = median(high_score)
             hs_mode = mode(high_score)
             print(f"    Here's your high score: {min(high_score)}")
-            print(f"    Total Guesses: {len(guesses)}")
-            print(f"    Mean of your Guess: {int(hs_mean)}")
-            print(f"    Median of your Guesses: {int(hs_median)}")
-            print(f"    Mode of your Guesses: {int(hs_mode)}")
+            print(f"    Mean of your high score: {int(hs_mean)}")
+            print(f"    Median of your high score: {int(hs_median)}")
+            print(f"    Mode of your high score: {int(hs_mode)}")
 
     def add_to_list(item):
         guesses.append(item)
@@ -58,6 +58,7 @@ def start_game():
                 break
             elif another_turn.lower() == "n":
                 print("OK. Maybe next time!")
+                game_stats()
                 return
             else:
                 print("Please enter 'Y' or 'N'.")
@@ -82,9 +83,7 @@ def start_game():
             elif guess == solution:
                 add_to_list(guess)
                 high_score.append(len(guesses))
-                print(
-                    "You have survived the night...This time. \nHere's some stats from the night:")
-                game_stats()
+                print(f"You won! It took you {len(guesses)} guesses.")
                 guesses = []
                 play_again()
                 break
